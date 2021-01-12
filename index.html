@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twill demo-Pentagram</title>
+    <style>
+      body {
+        background-color: #000000;
+      }
+      #super {
+        color: black;
+        padding: 1px 2px;
+        background-color: red;
+        border-radius: 8px;
+      }
+      .titl {
+        line-height: 0px;
+        padding-left: 526px;
+        color: white;
+        font-size: 40px;
+      }
+      form {
+        text-align: center;
+      }
+      .abs {
+        border: 1px solid white;
+        background-color: black;
+        color: white;
+        height: 35px;
+        width: 300px;
+        border-radius: 3px;
+      }
+      .top {
+        padding-top: 80px;
+      }
+      #buttn {
+        background-color: #666;
+        color: white;
+        height: 35px;
+        width: 310px;
+        border-radius: 3px;
+      }
+      #img1{
+          width: 20px;
+          padding-left: 600px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top">
+      <p class="titl">
+        Pentagram <sup id="super" style="font-size: 10px">DEMO</sup>
+      </p>
+      <p class="titl" style="color: #666">Login</p>
+    </div>
+    <form action="./home.html">
+      <label for="input" style="color: #666; padding-right: 265px">Email</label
+      ><br /><br />
+      <input
+        type="text"
+        name=""
+        placeholder="hgvdhsj@gmail.com"
+        class="abs"
+        required
+      /><br /><br />
+
+      <label for="pasword" style="color: #666; padding-right: 129px"
+        >Password</label
+      >
+      <label for="reset pass"
+        ><a href="" style="color: #666">Forgot password</a></label
+      ><br /><br />
+      <input
+        type="password"
+        name=""
+        placeholder="Password "
+        class="abs"
+        required
+      /><br /><br /><br>
+      
+      <input type="submit" value="Login" id="buttn">
+      <br><br><br>
+    </form>
+    <img src="./images/google.webp" alt="" id="img1">
+    <span style="color: #666; padding: 0px 5px;">Sign in with Google</span>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.2.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/8.2.1/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+  </body>
+</html>
